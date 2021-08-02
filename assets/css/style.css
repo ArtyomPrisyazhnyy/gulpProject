@@ -942,6 +942,10 @@ a:focus, a:active {
 .social__item {
     margin: 0 .75rem;
 }
+.social__item img {
+    max-width: 25px;
+    max-height: 25px;
+}
 
 .btn {
     display: inline-block;
@@ -1903,9 +1907,13 @@ a:focus, a:active {
     opacity: 0;
     -webkit-transform: translateY(-50px);
     transform: translateY(-50px);
-    transition: opacity 200ms ease-in-out, -webkit-transform 200ms ease-in-out;
-    transition: transform 200ms ease-in-out, opacity 200ms ease-in-out;
-    transition: transform 200ms ease-in-out, opacity 200ms ease-in-out, -webkit-transform 200ms ease-in-out;
+    transition: opacity 200ms ease-in-out,
+ -webkit-transform 200ms ease-in-out;
+    transition: transform 200ms ease-in-out,
+ opacity 200ms ease-in-out;
+    transition: transform 200ms ease-in-out,
+ opacity 200ms ease-in-out,
+ -webkit-transform 200ms ease-in-out;
 }
 
 @media screen and (max-width: 991px) {
@@ -1932,9 +1940,13 @@ a:focus, a:active {
     position: absolute;
     top: 2rem;
     right: 2rem;
-    transition: opacity .2s linear, -webkit-transform .2s linear;
-    transition: transform .2s linear, opacity .2s linear;
-    transition: transform .2s linear, opacity .2s linear, -webkit-transform .2s linear;
+    transition: opacity .2s linear,
+ -webkit-transform .2s linear;
+    transition: transform .2s linear,
+ opacity .2s linear;
+    transition: transform .2s linear,
+ opacity .2s linear,
+ -webkit-transform .2s linear;
 }
 
 .modal__close:hover {
