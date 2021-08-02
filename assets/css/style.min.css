@@ -705,6 +705,9 @@ a {
 
 .social__item {
   margin: 0 .75rem; }
+  .social__item img {
+    max-width: 25px;
+    max-height: 25px; }
 
 .btn {
   display: inline-block;
